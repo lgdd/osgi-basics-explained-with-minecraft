@@ -17,8 +17,8 @@
   <dependencies>
     <dependency>
       <groupId>org.osgi</groupId>
-      <artifactId>osgi.cmpn</artifactId>
-      <version>7.0.0</version>
+      <artifactId>org.osgi.service.component.annotations</artifactId>
+      <version>1.4.0</version>
     </dependency>
   </dependencies>
 
