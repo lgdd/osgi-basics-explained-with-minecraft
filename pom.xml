@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.github.lgdd</groupId>
+  <artifactId>osgi-basics-explained-with-minecraft</artifactId>
+  <version>1.0.0</version>
+
+  <name>OSGi Basics Explained</name>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>minecraft-summon-runtime</module>
+    <module>minecraft-summon-scheduler</module>
+    <module>minecraft-summon-api</module>
+    <module>minecraft-summon-animals</module>
+    <module>minecraft-summon-enemies</module>
+  </modules>
+
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.apache.karaf</groupId>
+        <artifactId>karaf-bom</artifactId>
+        <version>4.3.0</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+</project>
