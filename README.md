@@ -23,7 +23,7 @@ make minecraft-server
 
 To create the Karaf runtime, start it and deploy the minimal set of modules (API + Scheduler):
 ```shell
-make minimal
+make
 ```
 
 To build and deploy the other two modules:
