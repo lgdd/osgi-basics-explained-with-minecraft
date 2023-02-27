@@ -1,6 +1,6 @@
 # OSGi Basics Explained with Minecraft
 
-This application is summoning mobs at every player location every 10 seconds.
+This application is summoning mobs at player location every 10 seconds.
 This demonstrates having multiple implementations during the runtime and how they can be called when hot deployed.
 
 [![video](https://github.com/lgdd/doc-assets/blob/main/osgi-basics-explained-with-minecraft/thumbnail.jpg?raw=true)](https://youtu.be/dfnzTfVfT6U "OSGi Basics Explained with Minecraft")
